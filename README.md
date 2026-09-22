@@ -24,3 +24,4 @@
 - **Tailwind CSS** (High-contrast, neo-brutalist responsive styling)
 - **Lucide Icons**
 - **Vite**
+- **live demo** https://ommobile-digitech.netlify.app/
