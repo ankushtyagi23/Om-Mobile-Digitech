@@ -1,0 +1,6 @@
+{
+  "name": "Om Mobile & Digitech",
+  "description": "Premium mobile shop showcasing smartphones, accessories, real-time stock availability, spec & price comparison, secure checkout with doorstep delivery, in-store citizen services (PAN card, Xerox & print, recharge & bill payments), and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

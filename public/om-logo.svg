@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Royal Blue Gradient matching user's official shop logo -->
+    <linearGradient id="omBrandBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00A2FF" />
+      <stop offset="50%" stop-color="#0055EE" />
+      <stop offset="100%" stop-color="#0035B5" />
+    </linearGradient>
+
+    <!-- Radial highlight for depth -->
+    <radialGradient id="omRadialGlow" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#38B6FF" />
+      <stop offset="45%" stop-color="#0052E0" />
+      <stop offset="100%" stop-color="#002D9C" />
+    </radialGradient>
+  </defs>
+
+  <!-- Clean Transparent Canvas with Crisp Vector Lines -->
+
+  <!-- Outer Enclosing Circular Orbital Arc -->
+  <!-- Sweeps clockwise from the smartphone body around the top and right, tapering into the tech trails -->
+  <path 
+    d="M 92 178 A 195 195 0 1 1 316 438" 
+    fill="none" 
+    stroke="url(#omBrandBlue)" 
+    stroke-width="12" 
+    stroke-linecap="round" 
+  />
+
+  <!-- 1. LEFT SIDE: MODERN BEZEL-LESS SMARTPHONE -->
+  <!-- Smartphone outline tilted at ~-18 degrees, seamlessly integrated with the circular aura -->
+  <g transform="translate(42, 185) rotate(-18)">
+    <!-- Outer Phone Chassis with Rounded Corners -->
+    <rect 
+      x="0" 
+      y="0" 
+      width="78" 
+      height="164" 
+      rx="18" 
+      fill="#FFFFFF" 
+      stroke="url(#omBrandBlue)" 
+      stroke-width="7.5" 
+    />
+    <!-- Sleek Inner Screen Display Area -->
+    <rect 
+      x="6.5" 
+      y="8" 
+      width="65" 
+      height="148" 
+      rx="13" 
+      fill="#FFFFFF" 
+      stroke="url(#omBrandBlue)" 
+      stroke-width="3" 
+    />
+    <!-- Modern Dynamic Notch / Speaker Cutout -->
+    <rect 
+      x="24" 
+      y="11" 
+      width="30" 
+      height="4.5" 
+      rx="2.25" 
+      fill="url(#omBrandBlue)" 
+    />
+    <!-- Left Volume Buttons -->
+    <rect x="-4.5" y="42" width="4" height="18" rx="2" fill="url(#omBrandBlue)" />
+    <rect x="-4.5" y="66" width="4" height="18" rx="2" fill="url(#omBrandBlue)" />
+    <!-- Right Power / Action Button -->
+    <rect x="78" y="50" width="4" height="24" rx="2" fill="url(#omBrandBlue)" />
+  </g>
+
+  <!-- Dynamic swoosh curve connecting phone base to circular orbit -->
+  <path 
+    d="M 98 335 C 105 385, 142 428, 205 444 C 275 460, 360 435, 410 365" 
+    fill="none" 
+    stroke="url(#omBrandBlue)" 
+    stroke-width="8" 
+    stroke-linecap="round" 
+  />
+
+  <!-- 2. CENTER: SACRED OM (ॐ) SYMBOL (Blue Gradient Calligraphic Masterpiece) -->
+  <g fill="url(#omRadialGlow)" stroke="url(#omBrandBlue)">
+    
+    <!-- Top Bindu (Diamond / Rotated Square) - Characteristic of the logo image -->
+    <rect 
+      x="262" 
+      y="98" 
+      width="25" 
+      height="25" 
+      rx="4" 
+      transform="rotate(45 274.5 110.5)" 
+      fill="url(#omBrandBlue)" 
+      stroke="none" 
+    />
+
+    <!-- Top Crescent (Chandra) - Graceful dipping swoop -->
+    <path 
+      d="M 238 128 
+         C 256 150, 296 150, 324 126 
+         C 305 138, 260 140, 238 128 Z" 
+      stroke-width="1.5"
+    />
+
+    <!-- Main Upper Loop (Head of the 3) -->
+    <path 
+      d="M 172 178 
+         C 192 142, 240 140, 264 165 
+         C 288 190, 276 226, 235 240 
+         C 222 244, 212 242, 218 232 
+         C 224 220, 248 220, 252 198 
+         C 256 174, 226 162, 194 175 
+         C 182 180, 170 188, 172 178 Z" 
+      stroke-width="1.5"
+    />
+
+    <!-- Main Lower Swell & Deep Curve (Belly of the 3) -->
+    <path 
+      d="M 226 238 
+         C 255 244, 274 274, 258 318 
+         C 238 370, 175 365, 142 308 
+         C 134 294, 148 288, 156 298 
+         C 182 338, 222 344, 238 308 
+         C 252 278, 232 254, 202 248 
+         C 194 246, 198 236, 208 238 Z" 
+      stroke-width="1.5"
+    />
+
+    <!-- Sweeping Right Flank & Graceful Uplifting Tail -->
+    <path 
+      d="M 235 246 
+         C 285 220, 375 250, 376 318 
+         C 376 395, 290 408, 232 374 
+         C 222 368, 228 354, 238 360 
+         C 280 384, 348 376, 348 315 
+         C 348 266, 278 242, 228 264 
+         C 220 268, 224 252, 235 246 Z" 
+      stroke-width="1.5"
+    />
+  </g>
+
+  <!-- 3. TOP RIGHT: WI-FI / WIRELESS CONNECTIVITY SIGNALS -->
+  <!-- 3 Curved broadcasting arcs + 1 central beacon dot in matching blue -->
+  <g stroke="url(#omBrandBlue)" stroke-linecap="round" fill="none">
+    <!-- Inner Arc -->
+    <path d="M 368 152 A 28 28 0 0 1 406 122" stroke-width="10" />
+    <!-- Middle Arc -->
+    <path d="M 372 130 A 52 52 0 0 1 432 88" stroke-width="11" />
+    <!-- Outer Arc -->
+    <path d="M 382 108 A 76 76 0 0 1 462 58" stroke-width="12" />
+    <!-- Broadcast Origin Dot -->
+    <circle cx="382" cy="164" r="7" fill="url(#omBrandBlue)" stroke="none" />
+  </g>
+
+  <!-- 4. BOTTOM RIGHT: DIGITAL PCB CIRCUIT TRACES & NODES -->
+  <!-- Distinctive circuit tracks ending in hollow terminal node rings -->
+  <g stroke="url(#omBrandBlue)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Top PCB Track -->
+    <path d="M 305 372 L 358 372 L 398 328 L 434 328" stroke-width="6" />
+    <circle cx="444" cy="328" r="8" fill="#FFFFFF" stroke="url(#omBrandBlue)" stroke-width="5" />
+
+    <!-- Middle PCB Track -->
+    <path d="M 324 394 L 376 394 L 414 356 L 452 356" stroke-width="6" />
+    <circle cx="462" cy="356" r="8" fill="#FFFFFF" stroke="url(#omBrandBlue)" stroke-width="5" />
+
+    <!-- Bottom PCB Track -->
+    <path d="M 346 414 L 392 414 L 426 384 L 454 384" stroke-width="5" />
+    <circle cx="464" cy="384" r="7" fill="#FFFFFF" stroke="url(#omBrandBlue)" stroke-width="4.5" />
+  </g>
+</svg>
